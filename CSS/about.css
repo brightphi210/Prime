@@ -174,6 +174,12 @@ footer .container {
   flex-direction: column;
   width: 100%;
 }
+.footer_box .box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
 .footer_box .box1 #address {
   width: 100%;
   margin-bottom: 2rem;
@@ -192,6 +198,54 @@ footer .container {
 }
 .footer_box .box1 #footer_img img {
   width: 250px;
+}
+.footer_box .box2 #sub {
+  margin-bottom: 3rem;
+}
+.footer_box .box2 #sub p {
+  color: var(--primary, #2947a9);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footer_box .box2 #sub div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  width: 100%;
+}
+.footer_box .box2 #sub div input {
+  padding: 7px;
+  width: 100%;
+}
+.footer_box .box2 #sub div button {
+  border-radius: 4px;
+  background: var(--secondary, #f9995d);
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+.footer_box .box2 #socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.footer_box .box2 #socials button {
+  padding: 15px;
+  border-radius: 50%;
+}
+.copyright {
+  background: var(--primary, #2947a9);
+}
+.copyright div {
+  padding: 2vw 8vw;
+}
+.copyright div p {
+  font-weight: 500;
+  color: var(--white-color);
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {

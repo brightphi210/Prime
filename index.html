@@ -1,273 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prime Website</title>
 
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="CSS/index.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+  <body>
     <header>
-        <div class="img-flex">
-            <img src="images/logo.png" alt="">
-        </div>
-        <ul id="nav-ul">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About Us</li></a>
-            <li>Projects</li>
-            <li>Services</li>
-            <li>Contact Us</li>
-            <li>Clients</li>
-            <li>Team</li>
-            <i class="uil uil-multiply icons icons2" id="icon2" onclick="myFunction()"></i>
-        </ul>
-        <i class="uil uil-bars icons icons1 " id="icon1" onclick="myFunction2()"></i>
+      <div class="img-flex">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <ul id="nav-ul">
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About Us</li></a>
+        <a href=""><li>Projects</li></a>
+        <a href="service.html"><li>Services</li></a>
+        <a href=""><li>Contact Us</li></a>
+        <a href=""><li>Clients</li></a>
+        <a href=""><li>Team</li></a>
+        <i
+          class="uil uil-multiply icons icons2"
+          id="icon2"
+          onclick="myFunction()"
+        ></i>
+      </ul>
+      <i
+        class="uil uil-bars icons icons1"
+        id="icon1"
+        onclick="myFunction2()"
+      ></i>
     </header>
 
     <section class="section-one">
-        <div class="section-text-div">
-            <h2>ENGINEERING & <br> CONSTRUCTION AT ITS BEST</h2>
-            <p>PRIMEPROJECTS CONSTRUCTION</p>
-        </div>
+      <div class="section-text-div">
+        <h2>
+          ENGINEERING & <br />
+          CONSTRUCTION AT ITS BEST
+        </h2>
+        <p>PRIMEPROJECTS CONSTRUCTION</p>
+      </div>
     </section>
-
 
     <!-- ===================== slider_section ======================== -->
 
     <section class="show-case">
-        <div class="swiper mySwiper">
-            <h2>Services</h2>
-            <div class="swiper-wrapper">
+      <div class="swiper mySwiper">
+        <h2>Services</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swipe1">
+            <img src="images/serv1.png" alt="" />
+            <h2>Construction</h2>
+          </div>
 
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv1.png" alt="">
-                    <h2>Construction</h2>
-                </div>
+          <div class="swiper-slide">
+            <img src="images/serv2.png" alt="" />
+            <h2>Renovation</h2>
+          </div>
 
-                <div class="swiper-slide">
-                    <img src="images/serv2.png" alt="">
-                    <h2>Renovation</h2>
-                </div>
+          <div class="swiper-slide swipe1">
+            <img src="images/serv3.png" alt="" />
+            <h2>Consultation</h2>
+          </div>
 
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv3.png" alt="">
-                    <h2>Consultation</h2>
-                </div>
+          <div class="swiper-slide">
+            <img src="images/serv2.png" alt="" />
+            <h2>Repair Services</h2>
+          </div>
 
-                <div class="swiper-slide ">
-                    <img src="images/serv2.png" alt="">
-                    <h2>Repair Services</h2>
-                </div>
+          <div class="swiper-slide swipe1">
+            <img src="images/serv1.png" alt="" />
+            <h2>Architecture</h2>
+          </div>
 
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv1.png" alt="">
-                    <h2>Architecture</h2>
-                </div>
-
-                <div class="swiper-slide ">
-                    <img src="images/serv2.png" alt="">
-                    <h2>Electric</h2>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
+          <div class="swiper-slide">
+            <img src="images/serv2.png" alt="" />
+            <h2>Electric</h2>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
-
-
 
     <!-- ============================= Section Four ================================= -->
-    
+
     <section class="section-four">
-        <div class="sect-four-text">
-            <h2>We’ve Been <br> Building For Over <br> 10 Years</h2>
-            <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Sapien,  </p>
-            <button>Contact Us</button>
-        </div>
+      <div class="sect-four-text">
+        <h2>
+          We’ve Been <br />
+          Building For Over <br />
+          10 Years
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, <br />
+          consectetur adipiscing elit. Sapien,
+        </p>
+        <button>Contact Us</button>
+      </div>
 
-        <div class="sect-four-image">
-            <img src="images/Video image.png" alt="">
-            <button>Call for a quote - 08094422807</button>
-            <button>book us now</button>
-        </div>
+      <div class="sect-four-image">
+        <img src="images/Video image.png" alt="" />
+        <button>Call for a quote - 08094422807</button>
+        <button>book us now</button>
+      </div>
     </section>
-
 
     <!-- ======================== section five ======================  -->
     <section class="section-five">
-        <h1>Our Reputation</h1>
+      <h1>Our Reputation</h1>
 
-        <div class="section-flex-div">
-
-            <div class="section-five-single">
-                <img src="images/Vector1.png" alt="">
-                <h2>Briefly About Us</h2>
-                <p>Primeprojects Construction Company <br> Limited (PPC) is an indigenous </p>
-            </div>
-    
-            <div class="section-five-single">
-                <img src="images/Vector1.png" alt="">
-                <h2>Our Vision</h2>
-                <p>Primeprojects Construction Company <br> Limited (PPC) is an indigenous </p>
-            </div>
-    
-            <div class="section-five-single">
-                <img src="images/Vector1.png" alt="">
-                <h2>Our Mission</h2>
-                <p>Primeprojects Construction Company <br> Limited (PPC) is an indigenous </p>
-            </div>
-    
-            <div class="section-five-single">
-                <img src="images/Vector1.png" alt="">
-                <h2>Our Core Value</h2>
-                <p>Primeprojects Construction Company <br> Limited (PPC) is an indigenous </p>
-            </div>
-    
-            <div class="section-five-single">
-                <img src="images/Vector1.png" alt="">
-                <h2>Slogan</h2>
-                <p>Primeprojects Construction Company <br> Limited (PPC) is an indigenous </p>
-            </div>
+      <div class="section-flex-div">
+        <div class="section-five-single">
+          <img src="images/Vector1.png" alt="" />
+          <h2>Briefly About Us</h2>
+          <p>
+            Primeprojects Construction Company <br />
+            Limited (PPC) is an indigenous
+          </p>
         </div>
+
+        <div class="section-five-single">
+          <img src="images/Vector1.png" alt="" />
+          <h2>Our Vision</h2>
+          <p>
+            Primeprojects Construction Company <br />
+            Limited (PPC) is an indigenous
+          </p>
+        </div>
+
+        <div class="section-five-single">
+          <img src="images/Vector1.png" alt="" />
+          <h2>Our Mission</h2>
+          <p>
+            Primeprojects Construction Company <br />
+            Limited (PPC) is an indigenous
+          </p>
+        </div>
+
+        <div class="section-five-single">
+          <img src="images/Vector1.png" alt="" />
+          <h2>Our Core Value</h2>
+          <p>
+            Primeprojects Construction Company <br />
+            Limited (PPC) is an indigenous
+          </p>
+        </div>
+
+        <div class="section-five-single">
+          <img src="images/Vector1.png" alt="" />
+          <h2>Slogan</h2>
+          <p>
+            Primeprojects Construction Company <br />
+            Limited (PPC) is an indigenous
+          </p>
+        </div>
+      </div>
     </section>
-
-
 
     <!-- =========================== section six =========================  -->
     <section class="section-six">
-        <div class="section-six-image">
-            <img src="images/about-bg.png" alt="">
-        </div>
-        <div class="section-six-text">
-            <h2>About</h2>
-            <p>
-                PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) 
-                is an indigenous construction company involved in
-                building, civil and mechanical engineering construction 
-                works ranging from buildings, roads, jetties, bridges, 
-                erosion control works, boreholes and major water projects, 
-                steel roof trusses, pipeline construction and other 
-                mechanical fabrications. 
-            </p>
-            <button>More on Our History</button>
-        </div>
-    </section>  
-
-
-
-    
-    
+      <div class="section-six-image">
+        <img src="images/about-bg.png" alt="" />
+      </div>
+      <div class="section-six-text">
+        <h2>About</h2>
+        <p>
+          PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) is an indigenous
+          construction company involved in building, civil and mechanical
+          engineering construction works ranging from buildings, roads, jetties,
+          bridges, erosion control works, boreholes and major water projects,
+          steel roof trusses, pipeline construction and other mechanical
+          fabrications.
+        </p>
+        <button>More on Our History</button>
+      </div>
+    </section>
 
     <!-- ===================== section seven ===================== -->
     <section class="section-seven">
-        <div class="section-seven-text">
-            <h2>Free consultation with exceptional quality</h2>
-            <p>Just one call away: +84 1102 2703</p>
-        </div>
-        <div class="section-seven-button">
-            <p>Get your consultation</p>
-        </div>
+      <div class="section-seven-text">
+        <h2>Free consultation with exceptional quality</h2>
+        <p>Just one call away: +84 1102 2703</p>
+      </div>
+      <div class="section-seven-button">
+        <p>Get your consultation</p>
+      </div>
     </section>
-
 
     <!-- ===================== slider_section ======================== -->
 
     <section class="show-case">
-        <div class="swiper mySwiper">
-            <h2>Services</h2>
-            <div class="swiper-wrapper">
+      <div class="swiper mySwiper">
+        <h2>Services</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swipe1">
+            <img src="images/serv1.png" alt="" />
+            <h2>Construction</h2>
+          </div>
 
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv1.png" alt="">
-                    <h2>Construction</h2>
-                </div>
+          <div class="swiper-slide">
+            <img src="images/serv2.png" alt="" />
+            <h2>Renovation</h2>
+          </div>
 
-                <div class="swiper-slide">
-                    <img src="images/serv2.png" alt="">
-                    <h2>Renovation</h2>
-                </div>
+          <div class="swiper-slide swipe1">
+            <img src="images/serv3.png" alt="" />
+            <h2>Consultation</h2>
+          </div>
 
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv3.png" alt="">
-                    <h2>Consultation</h2>
-                </div>
+          <div class="swiper-slide">
+            <img src="images/serv2.png" alt="" />
+            <h2>Repair Services</h2>
+          </div>
 
-                <div class="swiper-slide ">
-                    <img src="images/serv2.png" alt="">
-                    <h2>Repair Services</h2>
-                </div>
-
-                <div class="swiper-slide swipe1">
-                    <img src="images/serv1.png" alt="">
-                    <h2>Architecture</h2>
-                </div>
-
-            </div>
-            <div class="swiper-pagination"></div>
+          <div class="swiper-slide swipe1">
+            <img src="images/serv1.png" alt="" />
+            <h2>Architecture</h2>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
-</body>
+    <footer>
+      <div class="container">
+        <div class="footer_box">
+          <div class="box1">
+            <div id="address">
+              <p>ADDRESS: <span>PortHarcourt, Rivers , Nigeria</span></p>
+              <p>PHONE: <span>+234 1102 2703</span></p>
+              <p>EMAIL: <span>hello@thebox.com</span></p>
+            </div>
+            <div id="footer_img">
+              <img src="/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div class="box2">
+            <div id="sub">
+              <p>Newsletter:</p>
+              <div>
+                <input type="text" placeholder="Your email here" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+            <div id="socials">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1_198)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 20.1117C0 30.055 7.22167 38.3233 16.6667 40V25.555H11.6667V20H16.6667V15.555C16.6667 10.555 19.8883 7.77833 24.445 7.77833C25.8883 7.77833 27.445 8 28.8883 8.22167V13.3333H26.3333C23.8883 13.3333 23.3333 14.555 23.3333 16.1117V20H28.6667L27.7783 25.555H23.3333V40C32.7783 38.3233 40 30.0567 40 20.1117C40 9.05 31 0 20 0C9 0 0 9.05 0 20.1117Z"
+                    fill="#3D445C"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_198">
+                    <rect width="40" height="40" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1_200)">
+                  <path
+                    d="M20 0.800049C9.39605 0.800049 0.800049 9.39605 0.800049 20C0.800049 30.604 9.39605 39.2001 20 39.2001C30.604 39.2001 39.2001 30.604 39.2001 20C39.2001 9.39605 30.604 0.800049 20 0.800049ZM15.3 27.958H11.412V15.446H15.3V27.958ZM13.332 13.91C12.104 13.91 11.31 13.04 11.31 11.964C11.31 10.866 12.128 10.022 13.382 10.022C14.636 10.022 15.404 10.866 15.428 11.964C15.428 13.04 14.636 13.91 13.332 13.91ZM29.5 27.958H25.612V21.024C25.612 19.41 25.048 18.314 23.642 18.314C22.5681 18.314 21.93 19.056 21.6481 19.7701C21.5441 20.024 21.518 20.3841 21.518 20.7421V27.956H17.628V19.4361C17.628 17.8741 17.578 16.568 17.526 15.444H20.904L21.0821 17.182H21.16C21.672 16.366 22.9261 15.162 25.024 15.162C27.5821 15.162 29.5 16.876 29.5 20.56V27.958Z"
+                    fill="#3D445C"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_200">
+                    <rect width="40" height="40" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1_202)">
+                  <path
+                    d="M20 0.800049C9.39605 0.800049 0.800049 9.39605 0.800049 20C0.800049 30.604 9.39605 39.2001 20 39.2001C30.604 39.2001 39.2001 30.604 39.2001 20C39.2001 9.39605 30.604 0.800049 20 0.800049ZM27.81 16.528C27.818 16.692 27.82 16.8561 27.82 17.0161C27.82 22.0161 24.018 27.778 17.062 27.778C15.0066 27.7815 12.994 27.1911 11.266 26.078C11.56 26.114 11.862 26.128 12.168 26.128C13.94 26.128 15.5701 25.5261 16.864 24.51C16.0755 24.4946 15.3114 24.2334 14.6783 23.7631C14.0452 23.2927 13.5745 22.6366 13.332 21.886C13.8984 21.9937 14.4817 21.9712 15.038 21.82C14.1821 21.647 13.4124 21.1832 12.8595 20.5074C12.3065 19.8316 12.0043 18.9853 12.004 18.112V18.066C12.514 18.348 13.098 18.5201 13.718 18.5401C12.9156 18.0059 12.3476 17.1854 12.1301 16.2463C11.9127 15.3072 12.0622 14.3206 12.548 13.488C13.498 14.656 14.6826 15.6115 16.0252 16.2927C17.3678 16.9738 18.8385 17.3654 20.342 17.442C20.1509 16.6307 20.2332 15.7789 20.5761 15.0191C20.919 14.2593 21.5033 13.634 22.2382 13.2406C22.9731 12.8471 23.8174 12.7075 24.6398 12.8434C25.4623 12.9793 26.2168 13.3831 26.786 13.992C27.6324 13.8246 28.444 13.5142 29.1861 13.074C28.904 13.9503 28.3134 14.6944 27.524 15.168C28.2737 15.0778 29.0058 14.8762 29.696 14.57C29.189 15.3298 28.5503 15.9929 27.81 16.528Z"
+                    fill="#3D445C"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_202">
+                    <rect width="40" height="40" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div>
+          <p>PrimeProjectsConstruction Company © 2022. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      speed: 1500,
+      autoplay: {
+        delay: 1500,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 
-<!-- Swiper JS -->
-<script
-src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
-</script>
-<script>
-var swiper = new Swiper(".mySwiper", {
-loop:true,
-spaceBetween: 10,
-speed:1500,
-autoplay:{
-    delay:1500
-},
-pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-},
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
 
-navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-},
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
 
-breakpoints: {
-    320: {
-    slidesPerView: 1,
-    },
+        480: {
+          slidesPerView: 2,
+        },
 
-    480: {
-    slidesPerView: 2,
-    },
+        768: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  </script>
 
-    768: {
-    slidesPerView: 2,
-    },
-    1200: {
-    slidesPerView: 3,
-    },
-},
-});
-</script>
+  <script>
+    let nav_ul = document.getElementById("nav-ul");
 
-<script>
-    let nav_ul = document.getElementById('nav-ul')
-
-    function myFunction(){
-        nav_ul.style.right = "-100%";
+    function myFunction() {
+      nav_ul.style.right = "-100%";
     }
 
-    function myFunction2(){
-        nav_ul.style.right = "0";
+    function myFunction2() {
+      nav_ul.style.right = "0";
     }
-</script>
+  </script>
 </html>
