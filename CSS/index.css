@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-:root {
-  --white-color: white;
-  --black-color: black;
-  --dark-blue: #000513;
-=======
 
 
 :root{
@@ -12,9 +6,7 @@
     --dark-blue: #000513;
     --light-orange: #F7B084;
     --orange-color: #EF6828;
->>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 }
-
 /* ================= header ================= */
 
 * {
@@ -74,8 +66,8 @@ ul li:hover::after {
   transform-origin: bottom left;
 }
 
-<<<<<<< HEAD
-=======
+
+
 
 
 /* ========================== media queries ========================= */
@@ -139,7 +131,6 @@ ul li:hover::after {
 
 
 
->>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 /* ====================== section one ===================== */
 .section-one {
   background-color: var(--white-color);
@@ -197,9 +188,7 @@ ul li:hover::after {
   }
 }
 
-<<<<<<< HEAD
-=======
-}
+
 
 @media only screen and (min-width:321px) and (max-width:768px){
     /* ==================== section one ================= */
@@ -237,8 +226,6 @@ ul li:hover::after {
 
 
 
-
->>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 /* ========================== Swiper ========================= */
 .show-case {
   text-align: center;
@@ -320,8 +307,8 @@ ul li:hover::after {
     width: 30%;
   }
 }
-<<<<<<< HEAD
-=======
+
+
 
 .swipe1{
     background-color: var(--white-blue);
@@ -617,11 +604,3 @@ ul li:hover::after {
     }
 }
 
-
-
-
-
-
-
-
->>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
