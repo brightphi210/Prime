@@ -4,6 +4,8 @@
     --white-color: white;
     --black-color: black;
     --dark-blue: #000513;
+    --light-orange: #F7B084;
+    --orange-color: #EF6828;
 }
 
 
@@ -164,6 +166,127 @@ ul li:hover::after {
 
 
 
+/* ======================== section four ========================= */
+.section-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px 0 ;
+    color: var(--white-color);
+    align-items: center;
+}
+
+.sect-four-text{
+    background-color: var(--dark-blue);
+    height: 100%;
+    padding: 100px;
+    padding-top: 150px;
+}
+
+.sect-four-text h2{
+    font-size: 50px;
+}
+
+
+.sect-four-text button{
+    background-color: var(--dark-blue);
+    border: var(--light-orange) solid 1px ;
+    padding: 15px 40px;
+    color: var(--white-color);
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.sect-four-image{
+    border: rgb(231, 231, 231) solid 1px ;
+}
+
+.sect-four-image img{
+    width: 100%;
+    height: 100%;
+    border: rgb(226, 226, 226) 1px solid;
+    cursor: pointer;
+}
+
+.sect-four-image button{
+    background-color:var(--orange-color);
+    border: none;
+    padding: 15px 40px;
+    color: var(--white-color);
+}
+
+
+.sect-four-image button:last-child{
+    background-color:var(--white-color);
+    border: grey solid 1px;
+    padding: 15px 40px;
+    color: var(--dark-blue);
+}
+
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-four{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sect-four-text{
+        padding: 10%;
+    }
+    .sect-four-text h2{
+        font-size: 30px;
+    }
+
+
+    .sect-four-image button{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* ========================= section-five  ========================= */
+.section-five{
+    padding-top: 50px;
+}
+.section-five h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-flex-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 10%;
+    grid-gap: 50px;
+}
+
+.section-five-single{
+    background-color: var(--white-color);
+    border: rgb(216, 216, 216) solid 1px;
+    padding: 50px;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-flex-div{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .section-five-single p{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+/* ========================== media queries ========================= */
 
 @media only screen and (min-width:321px) and (max-width:768px){
 
@@ -218,6 +341,54 @@ ul li:hover::after {
     ul li::after{
         width: 30%;
 
+    }
+
+
+    /* ==================== section one ================= */
+
+    .section-one{
+        width: 100%;
+        position: relative;
+        height: 50vh;
+    }
+    
+    .section-one::before{
+        background-image: none;
+        height: 60vh;
+        width: 100%;
+        background-color: rgb(242, 242, 242);
+
+    }
+    
+    .section-text-div{
+        padding: 0 10%;
+        padding-top: 40%;
+    }
+    
+    
+    .section-one h2{
+        font-size: 35px;
+    }
+    
+    .section-one p{
+        font-size: 15px;
+    }
+
+
+    /* ============= Swiper ================= */
+
+    .show-case{
+        padding: 40px 10%; 
+        padding-top: 100px;
+
+    }
+
+
+    .swiper h2{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        font-size: 20px;
     }
 }
 
