@@ -2,6 +2,7 @@
   --white-color: white;
   --black-color: black;
   --dark-blue: #000513;
+  --gre-color: rgb(249, 249, 249);
 }
 
 /* ================= header ================= */
@@ -69,7 +70,7 @@ ul li:hover::after {
   background-color: var(--black-color);
   width: 100%;
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +78,7 @@ ul li:hover::after {
 
 .banner::before {
   background-image: url(/images/young-black-race-man-with-blueprint-stading-near-glass-building\ 1.png);
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: absolute;
   content: "";
@@ -159,7 +160,7 @@ ul li:hover::after {
 }
 
 footer {
-  background-color: var(--white-color);
+  background-color: var(--gre-color);
 }
 footer .container {
   padding: 4vw 8vw;
@@ -301,6 +302,14 @@ footer .container {
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
+
+  .banner::before {
+    height: 50vh;
+  } 
+
+  .banner{
+    height: 50vh;
+  }
   .about_txts .txts {
     width: 100%;
   }
