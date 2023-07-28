@@ -447,6 +447,108 @@ ul li:hover::after {
 }
 
 
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-six{
+        grid-template-columns: 1fr;
+        padding: 50px 8%;
+    }
+
+    .section-six-image img{
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .section-six-text{
+        background-color: var(--dark-blue);
+        padding: 20px;
+        color: var(--white-color);
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        position:relative;
+    }
+
+    .section-six-text p{
+        line-height: 20px;
+        font-size: 13px;
+    }
+}
+
+
+
+/* ======================== section-seven ============================== */
+
+.section-seven{
+    background-color: var(--dark-blue);
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+    padding: 100px 10%;
+    
+}
+
+.section-seven::after{
+    background-image: url(/images/consult-bg.png);
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 0;
+    opacity: 20%;
+}
+
+
+.section-seven-text{
+    isolation: isolate;
+    color: var(--white-color);
+}
+
+.section-seven-text h2{
+    isolation: isolate;
+    z-index: 3;
+}
+
+.section-seven-button{
+    isolation: isolate;
+    z-index: 3;
+    margin: 0 20%;
+}
+
+.section-seven-button p{
+    padding: 15px 40px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border: var(--white-color) 2px solid;
+    color: var(--white-color);
+    isolation: isolate;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-seven{
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        height: 35vh;
+    } 
+
+    .section-seven::after{
+        height: 35vh;
+    }
+
+    .section-seven-button {
+        margin: 0 0;
+    }
+}
+
 
 
 
