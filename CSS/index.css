@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 :root {
   --white-color: white;
   --black-color: black;
   --dark-blue: #000513;
+=======
+
+
+:root{
+    --white-color: white;
+    --black-color: black;
+    --dark-blue: #000513;
+    --light-orange: #F7B084;
+    --orange-color: #EF6828;
+>>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 }
 
 /* ================= header ================= */
@@ -63,6 +74,72 @@ ul li:hover::after {
   transform-origin: bottom left;
 }
 
+<<<<<<< HEAD
+=======
+
+
+/* ========================== media queries ========================= */
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+    .icons{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .icons1{
+        right: 50px;
+        top: 30px;
+        position: absolute;
+        color: var(--black-color);
+    }
+
+    .icons2{
+        top: 50px;
+        right: 50px;
+        position: absolute;
+        color: var(--white-color);
+    }
+
+
+    .img-flex img{
+        width: 170px;
+    }
+
+
+    ul{
+        background-color: var(--dark-blue);
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        right: -100%;
+        bottom: 0;
+        padding-left: 30px;
+        z-index: 3;
+        padding-top: 40px;
+        transition: all ease 0.5s;
+    }
+    ul li{
+        display: block;
+        color: var(--white-color);
+        padding-top: 30px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    ul li::after{
+        width: 30%;
+
+    }
+
+}
+
+
+
+>>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 /* ====================== section one ===================== */
 .section-one {
   background-color: var(--white-color);
@@ -120,6 +197,48 @@ ul li:hover::after {
   }
 }
 
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    /* ==================== section one ================= */
+
+    .section-one{
+        width: 100%;
+        position: relative;
+        height: 50vh;
+    }
+    
+    .section-one::before{
+        background-image: none;
+        height: 60vh;
+        width: 100%;
+        background-color: rgb(242, 242, 242);
+
+    }
+    
+    .section-text-div{
+        padding: 0 10%;
+        padding-top: 40%;
+    }
+    
+    
+    .section-one h2{
+        font-size: 35px;
+    }
+    
+    .section-one p{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+>>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
 /* ========================== Swiper ========================= */
 .show-case {
   text-align: center;
@@ -201,3 +320,308 @@ ul li:hover::after {
     width: 30%;
   }
 }
+<<<<<<< HEAD
+=======
+
+.swipe1{
+    background-color: var(--white-blue);
+    color: var(--dark-color);
+    border: rgb(209, 209, 209) solid 1px;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    /* ============= Swiper ================= */
+
+    .show-case{
+        padding: 40px 10%; 
+        padding-top: 100px;
+
+    }
+
+
+    .swiper h2{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* ======================== section four ========================= */
+.section-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px 0 ;
+    color: var(--white-color);
+    align-items: center;
+}
+
+.sect-four-text{
+    background-color: var(--dark-blue);
+    height: 100%;
+    padding: 100px;
+    padding-top: 150px;
+}
+
+.sect-four-text h2{
+    font-size: 50px;
+}
+
+
+.sect-four-text button{
+    background-color: var(--dark-blue);
+    border: var(--light-orange) solid 1px ;
+    padding: 15px 40px;
+    color: var(--white-color);
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.sect-four-image{
+    border: rgb(231, 231, 231) solid 1px ;
+}
+
+.sect-four-image img{
+    width: 100%;
+    height: 100%;
+    border: rgb(226, 226, 226) 1px solid;
+    cursor: pointer;
+}
+
+.sect-four-image button{
+    background-color:var(--orange-color);
+    border: none;
+    padding: 15px 40px;
+    color: var(--white-color);
+}
+
+
+.sect-four-image button:last-child{
+    background-color:var(--white-color);
+    border: grey solid 1px;
+    padding: 15px 40px;
+    color: var(--dark-blue);
+}
+
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-four{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sect-four-text{
+        padding: 10%;
+    }
+    .sect-four-text h2{
+        font-size: 30px;
+    }
+
+
+    .sect-four-image button{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/* ========================= section-five  ========================= */
+.section-five{
+    padding-top: 50px;
+}
+.section-five h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-flex-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 10%;
+    grid-gap: 50px;
+}
+
+.section-five-single{
+    background-color: var(--white-color);
+    border: rgb(216, 216, 216) solid 1px;
+    padding: 50px;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-flex-div{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .section-five-single p{
+        font-size: 13px;
+    }
+}
+
+
+
+/* =================== section six ========================= */
+
+
+.section-six{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 10%;
+    padding-top: 150px;
+    align-items: center;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+
+.section-six-image{
+    width: 100%;
+}
+
+.section-six-image img{
+    border-radius: 20px;
+}
+
+.section-six-text{
+    background-color: var(--dark-blue);
+    padding: 50px;
+    color: var(--white-color);
+    height: 60%;
+    width: 30%;
+    right: 200px;
+    top: 200px;
+    position: absolute;
+}
+
+
+.section-six-text p{
+    line-height: 40px;
+}
+
+.section-six-text button{
+    background-color: var(--white-color);
+    padding: 15px 40px;
+    border: none;
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-six{
+        grid-template-columns: 1fr;
+        padding: 50px 8%;
+    }
+
+    .section-six-image img{
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .section-six-text{
+        background-color: var(--dark-blue);
+        padding: 20px;
+        color: var(--white-color);
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        position:relative;
+    }
+
+    .section-six-text p{
+        line-height: 20px;
+        font-size: 13px;
+    }
+}
+
+
+
+/* ======================== section-seven ============================== */
+
+.section-seven{
+    background-color: var(--dark-blue);
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+    padding: 100px 10%;
+    
+}
+
+.section-seven::after{
+    background-image: url(/images/consult-bg.png);
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 0;
+    opacity: 20%;
+}
+
+
+.section-seven-text{
+    isolation: isolate;
+    color: var(--white-color);
+}
+
+.section-seven-text h2{
+    isolation: isolate;
+    z-index: 3;
+}
+
+.section-seven-button{
+    isolation: isolate;
+    z-index: 3;
+    margin: 0 20%;
+}
+
+.section-seven-button p{
+    padding: 15px 40px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border: var(--white-color) 2px solid;
+    color: var(--white-color);
+    isolation: isolate;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .section-seven{
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        height: 35vh;
+    } 
+
+    .section-seven::after{
+        height: 35vh;
+    }
+
+    .section-seven-button {
+        margin: 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+>>>>>>> 40d1bd836e5390511f20269e47a7e6f9908955f6
