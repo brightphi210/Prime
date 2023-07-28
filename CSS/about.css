@@ -299,3 +299,20 @@ footer .container {
     width: 30%;
   }
 }
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .about_txts .txts {
+    width: 100%;
+  }
+  .footer_box {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+  .footer_box .box2 {
+    align-items: flex-start;
+    width: 100%;
+  }
+  .footer_box .box2 #sub {
+    width: 100%;
+  }
+}
