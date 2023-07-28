@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/about.css" />
+  </head>
+  <body>
+    <header>
+      <div class="img-flex">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <ul id="nav-ul">
+        <a href="index.html"><li>Home</li></a>
+        <a href=""><li>About Us</li></a>
+        <li>Projects</li>
+        <li>Services</li>
+        <li>Contact Us</li>
+        <li>Clients</li>
+        <li>Team</li>
+        <i
+          class="uil uil-multiply icons icons2"
+          id="icon2"
+          onclick="myFunction()"
+        ></i>
+      </ul>
+      <i
+        class="uil uil-bars icons icons1"
+        id="icon1"
+        onclick="myFunction2()"
+      ></i>
+    </header>
+
+    <section class="banner">
+      <div class="body">
+        <p>Know Who We Are</p>
+        <h2>More About PCC</h2>
+      </div>
+    </section>
+
+    <section class="about_us">
+      <div class="container">
+        <div class="about_txts">
+          <div class="btns">
+            <button id="brief">Briefly about us</button>
+            <button id="mission">Our Mission</button>
+            <button id="vision">Our Vision</button>
+          </div>
+          <div class="txts">
+            <p id="content">
+              PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) is an indigenous
+              construction company involved in building, civil and mechanical
+              engineering construction works ranging from buildings, roads,
+              jetties, bridges, erosion control works, boreholes and major water
+              projects, steel roof trusses, pipeline construction and other
+              mechanical fabrications. <br />
+              We apply the most modern technology to ensure our esteemed clients
+              are satisfied. With an eye on the highest quality construction
+              works, comparable to the best around the globe, we have in our
+              employ top-flight engineers, technologists, technicians and
+              managers with over twenty five years of expreience in light and
+              heavy construction works. At PCC LTD, quality and aesthetics are
+              our watchwords. <br />
+              Primeprojects Construction Company Limeted with assets of over one
+              billion naira and yearly turnover of over three billion naira, we
+              play in the big league in Nigerian constuction industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    const list = [
+      {
+        brief:
+          "PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) is an indigenous construction company involved in building, civil and mechanicalengineering construction works ranging from buildings, roads, jetties, bridges, erosion control works, boreholes and major water projects, steel roof trusses, pipeline construction and other mechanical fabrications. <br /> We apply the most modern technology to ensure our esteemed clients are satisfied. With an eye on the highest quality construction works, comparable to the best around the globe, we have in our employ top-flight engineers, technologists, technicians and managers with over twenty five years of expreience in light and heavy construction works. At PCC LTD, quality and aesthetics are our watchwords. <br /> Primeprojects Construction Company Limeted with assets of over one billion naira and yearly turnover of over three billion naira, we play in the big league in Nigerian constuction industry.",
+        mission: "",
+        vision: "",
+      },
+    ];
+
+    let nav_ul = document.getElementById("nav-ul");
+
+    function myFunction() {
+      nav_ul.style.right = "-100%";
+    }
+
+    function myFunction2() {
+      nav_ul.style.right = "0";
+    }
+
+    const about = document.getElementById("brief");
+    const mission = document.getElementById("mission");
+    const vision = document.getElementById("vision");
+    const content = document.getElementById("content");
+
+    content.innerHTML = list[0].brief;
+
+    about.addEventListener("click", () => {
+      content.innerHTML = list[0].brief;
+    });
+
+    mission.addEventListener("click", () => {
+      content.innerHTML = list[0].mission;
+    });
+
+    vision.addEventListener("click", () => {
+      content.innerHTML = list[0].vision;
+    });
+  </script>
+</html>
