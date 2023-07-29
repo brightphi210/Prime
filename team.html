@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/CSS/about.css" />
+    <link rel="stylesheet" href="/CSS/team.css" />
   </head>
   <body>
     <header>
@@ -47,38 +47,36 @@
 
     <section class="banner">
       <div class="body">
-        <p>Know Who We Are</p>
-        <h2>More About PCC</h2>
+        <p>Our Team Member</p>
+        <h2>PCC Team Members</h2>
       </div>
     </section>
 
-    <section class="about_us">
+    <section class="service">
       <div class="container">
-        <div class="about_txts">
-          <div class="btns">
-            <button id="brief">Briefly about us</button>
-            <button id="mission">Our Mission</button>
-            <button id="vision">Our Vision</button>
+        <div class="services">
+          <div class="head">
+            <h2>Our Team</h2>
+            <p>We have been working with clients around the world</p>
           </div>
-          <div class="txts">
-            <p id="content">
-              PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) is an indigenous
-              construction company involved in building, civil and mechanical
-              engineering construction works ranging from buildings, roads,
-              jetties, bridges, erosion control works, boreholes and major water
-              projects, steel roof trusses, pipeline construction and other
-              mechanical fabrications. <br />
-              We apply the most modern technology to ensure our esteemed clients
-              are satisfied. With an eye on the highest quality construction
-              works, comparable to the best around the globe, we have in our
-              employ top-flight engineers, technologists, technicians and
-              managers with over twenty five years of expreience in light and
-              heavy construction works. At PCC LTD, quality and aesthetics are
-              our watchwords. <br />
-              Primeprojects Construction Company Limeted with assets of over one
-              billion naira and yearly turnover of over three billion naira, we
-              play in the big league in Nigerian constuction industry.
-            </p>
+          <div class="content">
+            <div class="box">
+              <img src="/images/our-team-012.png" alt="" />
+              <p>Dollie Horton</p>
+              <span>CEO & Co-Founder</span>
+            </div>
+
+            <div class="o_box">
+              <img src="/images/our-team-061.png" alt="" />
+              <p>Dollie Horton</p>
+              <span>CEO & Co-Founder</span>
+            </div>
+
+            <div class="box">
+              <img src="/images/our-team-021.png" alt="" />
+              <p>Dollie Horton</p>
+              <span>CEO & Co-Founder</span>
+            </div>
           </div>
         </div>
       </div>
@@ -178,15 +176,6 @@
   </body>
 
   <script>
-    const list = [
-      {
-        brief:
-          "PRIMEPROJECTS CONSTRUCTION COMPANY LIMITED (PCC) is an indigenous construction company involved in building, civil and mechanicalengineering construction works ranging from buildings, roads, jetties, bridges, erosion control works, boreholes and major water projects, steel roof trusses, pipeline construction and other mechanical fabrications. <br /> We apply the most modern technology to ensure our esteemed clients are satisfied. With an eye on the highest quality construction works, comparable to the best around the globe, we have in our employ top-flight engineers, technologists, technicians and managers with over twenty five years of expreience in light and heavy construction works. At PCC LTD, quality and aesthetics are our watchwords. <br /> Primeprojects Construction Company Limeted with assets of over one billion naira and yearly turnover of over three billion naira, we play in the big league in Nigerian constuction industry.",
-        mission: "",
-        vision: "",
-      },
-    ];
-
     let nav_ul = document.getElementById("nav-ul");
 
     function myFunction() {
@@ -196,24 +185,5 @@
     function myFunction2() {
       nav_ul.style.right = "0";
     }
-
-    const about = document.getElementById("brief");
-    const mission = document.getElementById("mission");
-    const vision = document.getElementById("vision");
-    const content = document.getElementById("content");
-
-    content.innerHTML = list[0].brief;
-
-    about.addEventListener("click", () => {
-      content.innerHTML = list[0].brief;
-    });
-
-    mission.addEventListener("click", () => {
-      content.innerHTML = list[0].mission;
-    });
-
-    vision.addEventListener("click", () => {
-      content.innerHTML = list[0].vision;
-    });
   </script>
 </html>

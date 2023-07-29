@@ -115,7 +115,7 @@ ul li:hover::after {
 }
 
 .service {
-  background: #000513;
+  background: #fff;
 }
 .service .container {
   padding: 8vw;
@@ -134,7 +134,7 @@ ul li:hover::after {
 .services .head h2 {
   text-align: center;
   font-size: 40px;
-  color: #fff;
+  color: var(--black-color);
   font-weight: 600;
   position: relative;
 }
@@ -163,6 +163,8 @@ ul li:hover::after {
   background: #fff;
   box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
   height: 15rem;
+  border: 1px solid #e1e1e1;
+  gap: 1rem;
 }
 .services .content .o_box {
   display: flex;
@@ -170,26 +172,20 @@ ul li:hover::after {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: #ef6828;
+  background: #fff;
   box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
   height: 15rem;
+  gap: 1rem;
 }
-.services .content .box svg {
-  width: 5rem;
-  margin-bottom: 10px;
-}
-.services .content .o_box svg {
-  width: 5rem;
-  margin-bottom: 10px;
-}
+
 .services .content .box p {
-  color: var(--primary, #2947a9);
+  color: var(--dark-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 600;
 }
 .services .content .o_box p {
-  color: var(--neutral-white, #fff);
+  color: var(--dark-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 600;
